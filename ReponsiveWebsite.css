@@ -1,0 +1,207 @@
+:root{
+    --darkpurple: #392467;
+    --purple: #5D3587;
+    --pink: #A367B1;
+    --lightpink: #FFD1E3;
+    --White: whitesmoke;
+}
+
+body, h2, h3{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.landing-page{
+   background-image: url('Media/restaurant1.jpg');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   color:navy;
+   opacity: 0.85;
+}
+
+header a{
+    text-decoration: none;
+    color:var(--lightpink);
+    font-weight: bolder;
+    font-size: 50px;  
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--lightpink);
+    flex: 3;
+    font-size: medium;
+}
+
+header a i{
+    margin-right: .5em;
+}
+
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+
+#logo{
+    display: flex;
+    flex: 2;
+    font-size:50px;
+    min-width: 450px;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    min-width: 250px;
+}
+
+.headercontent{
+    padding: 1em;
+}
+ 
+nav a:hover{
+    color: darkred;
+}
+
+.StartOrder:hover{
+    color: #392467;
+}
+
+.Main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    font: bolder;
+    font-size: larger;
+    padding: 2em;
+}
+
+.Tagline1{
+    color:black;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.Tagline2{
+    color:black;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.Main-content div{
+    margin: 20px;
+}
+
+.Main-content button{
+    width: 10vw;
+    margin-top: 10px;
+    border-radius: 25px;
+    padding: 0.5em;
+    background-color: cadetblue;
+    color: azure;
+}
+
+.Menu{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;}
+
+th{
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: brown;
+}
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(187, 66, 26), rgb(210, 194, 171)) ;
+    font-weight:bolder ;
+    font-size: 2em;
+}
+
+.Menu, .locations{
+    background: linear-gradient(to right, rgb(210, 194, 171), rgb(120, 50, 20)) ;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-weight:bolder ;
+    font-size: 2em;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+.Menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .5em;
+}
+
+.Menu td:nth-child(1){
+    flex: 0.5;
+    justify-self: left;
+}
+
+
+.Menu td:nth-child(1){
+    justify-self: right;
+}
+
+.Menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(346px, 1fr));
+}
+
+.locationsavailable{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+address{
+    margin: 20px;
+}
+
+
+
+footer{
+    display: flex;
+}
+
+.one:nth-child(1){
+    flex: 0.1;
+    justify-self: left;
+}
+
+.one:nth-child(2){
+    flex: 0.025;
+    justify-self: left;
+}
+
+.one:nth-child(3){
+    flex: 0.025;
+    justify-self: left;
+}
+
+.one:nth-child(4){
+    flex: 0.025;
+    justify-self: left;
+}
+
+.one:hover{
+    color:maroon;
+}
+
+
+
